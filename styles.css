@@ -30,7 +30,6 @@ body{
  header{
     background-color: var(--primary-color);
     width: 100%;
-    height: 15vh;
     padding: 5px;
 
  }
@@ -148,11 +147,12 @@ body{
 }
 .slider{
     width: 100vw;
+    height: 110px;
     margin-top: 3px;
 }
 .mobile-section{
     background: #FFB6C1;
-    height: 66vh;
+    height: 59vh;
 }
 .mobile-font{
 padding: 10px 0px;
@@ -172,7 +172,7 @@ padding: 10px 0px;
     height: 30px;
     font-size: 1rem;
     color: white;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .main{
     
@@ -191,23 +191,19 @@ padding: 10px 0px;
 .main2 img{
     width: 100px;
     height: 100px;
-    margin: 5px 20px;
+    margin-top: 10px;
+    margin-left: 25px;
 
 }
 .main2 p{
     font-size: 0.9rem;
-    padding: 0px 10px;
+    padding: 0px 12px;
     padding-bottom: 5px;
 }
 .mob-col{
     color: green;
 }
-.third-section{
-    display: none;
-}
-.fourth-section{
-    display: none;
-}
+
 .feature-brand-section{
     background: white;
     height: 40vh;
@@ -302,13 +298,13 @@ padding: 10px 0px;
     .main2 img{
         width: 150px;
         height: 150px;
-        margin: 0px 60px;
+        margin-left: 70px;
         margin-top: 10px;
     
     }
     .main2 p{
-        font-size: 0.9rem;
-        padding: 0px 20px;
+        font-size: 1rem;
+        padding: 0px 60px;
         padding-bottom: 5px;
     }
     .feature-brand-section{
