@@ -52,7 +52,7 @@ body{
      background: var(--secondary-color);
      margin: 3px 0px;
      cursor: pointer;
-     transition: all 0.3s ease;
+     transition: all 0.5s ease-in-out;
  }
  
 .header1 p{
@@ -93,8 +93,8 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
     display: none;
+    transition: all 0.5s ease-in-out;
 }
 .sidebar ul{
     font-size: 0.9rem;
@@ -108,7 +108,7 @@ body{
 }
 .top-side{
     background-color: var(--primary-color);
-    height: 40px;
+    padding: 20px;
     
 }
 .top-side a{
