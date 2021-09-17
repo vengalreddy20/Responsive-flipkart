@@ -152,10 +152,11 @@ body{
 }
 .mobile-section{
     background: #FFB6C1;
-    height: 59vh;
+    padding-bottom: 20px;
 }
 .mobile-font{
-padding: 10px 0px;
+padding-top: 40px;
+padding-bottom: 20px;
 }
 .mobile-font h3{
     font-size: 1.1rem;
